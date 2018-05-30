@@ -29,6 +29,10 @@ Press_mmHg	KEYWORD2
 init		KEYWORD2
 check		KEYWORD2
 
+updatePressure	KEYWORD3
+
 #######################################
 # Constants (LITERAL1)
 #######################################
+PRESSURE_BMP	LITERAL1
+BMP280_ADDRESS	LITERAL1

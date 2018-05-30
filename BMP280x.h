@@ -30,13 +30,13 @@
 class BMP280x
 {
 public:
-	BMP280x(); // base type
+	BMP280x(int bmp280_addr); // base type
 	
 	unsigned long Press_Pa;
 	uint16_t Press_mmHg;
 	float Temp_C;
 	
-	void init(int bmp280_addr);
+	void init();
 	void check();
 
 private:

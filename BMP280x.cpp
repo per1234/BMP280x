@@ -20,15 +20,15 @@
 #include <stdio.h>
 #include <math.h>
 
-BMP280x::BMP280x()
+BMP280x::BMP280x(int bmp280_addr)
 {
-	//do nothing
+	_bmp280_addr = bmp280_addr;
 }
 
 
-void BMP280x::init(int bmp280_addr)
+void BMP280x::init()
 {
-	_bmp280_addr = bmp280_addr;
+	//_bmp280_addr = bmp280_addr;
 	uint8_t osrs_t = 1;             //Temperature oversampling x 1
 	uint8_t osrs_p = 1;             //Pressure oversampling x 1
 	//  uint8_t osrs_h = 1;             //Humidity oversampling x 1

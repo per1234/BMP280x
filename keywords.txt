@@ -30,6 +30,7 @@ init		KEYWORD2
 check		KEYWORD2
 
 updatePressure	KEYWORD3
+initPressure	KEYWORD3
 
 #######################################
 # Constants (LITERAL1)
